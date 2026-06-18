@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/web-development/23-chek/static/css/main.1919ba0d.css",
+    "main.js": "/web-development/23-chek/static/js/main.12fb4969.js",
+    "index.html": "/web-development/23-chek/index.html",
+    "main.1919ba0d.css.map": "/web-development/23-chek/static/css/main.1919ba0d.css.map",
+    "main.12fb4969.js.map": "/web-development/23-chek/static/js/main.12fb4969.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1919ba0d.css",
+    "static/js/main.12fb4969.js"
+  ]
+}
