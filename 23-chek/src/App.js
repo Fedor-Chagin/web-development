@@ -14,15 +14,12 @@ function App() {
       setTranslation('перевод появится здесь');
       return;
     }
-
     setLoading(true);
     setTranslation('Перевожу...');
-
     try {
       const url = `https://dictionary.yandex.net/api/v1/dicservice.json/lookup?key=${API_KEY}&lang=ru-en&text=${encodeURIComponent(trimmed)}`;
       const response = await fetch(url);
       const data = await response.json();
-      
       if (data.def && data.def.length > 0) {
         setTranslation(data.def[0].tr[0].text.toLowerCase());
       } else {
